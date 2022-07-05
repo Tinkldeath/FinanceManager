@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320C9F52284C0DD8008C6521 /* SCategoryStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C9F51284C0DD8008C6521 /* SCategoryStatistics.swift */; };
+		320FE9102844083700A0BA72 /* FinanceManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 320FE90E2844083700A0BA72 /* FinanceManager.xcdatamodeld */; };
+		3217D1512844DCEA0080812E /* ResetValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217D1502844DCEA0080812E /* ResetValidationViewController.swift */; };
+		3217D1532844DD550080812E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217D1522844DD550080812E /* LoginViewController.swift */; };
+		321D4AFF283B62630085B289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321D4AFE283B62630085B289 /* AppDelegate.swift */; };
+		321D4B01283B62630085B289 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321D4B00283B62630085B289 /* SceneDelegate.swift */; };
+		321D4B03283B62630085B289 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321D4B02283B62630085B289 /* SignUpViewController.swift */; };
+		321D4B0B283B62660085B289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321D4B0A283B62660085B289 /* Assets.xcassets */; };
+		321D4B0E283B62660085B289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321D4B0C283B62660085B289 /* LaunchScreen.storyboard */; };
+		321E01BC284439DD006918F1 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321E01BB284439DD006918F1 /* AccountViewController.swift */; };
+		32453E0F2844469B00CEDCCA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32453E0E2844469B00CEDCCA /* SettingsViewController.swift */; };
+		32453E11284458CA00CEDCCA /* DebtsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32453E10284458CA00CEDCCA /* DebtsViewController.swift */; };
+		325341A728466A7200719153 /* ExpenseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325341A628466A7200719153 /* ExpenseManager.swift */; };
+		325341A92846767B00719153 /* BackupCodesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325341A82846767B00719153 /* BackupCodesManager.swift */; };
+		325341AD284676DC00719153 /* BackupCode+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325341AB284676DC00719153 /* BackupCode+CoreDataClass.swift */; };
+		325341AE284676DC00719153 /* BackupCode+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325341AC284676DC00719153 /* BackupCode+CoreDataProperties.swift */; };
+		325341B02846776D00719153 /* Encryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325341AF2846776D00719153 /* Encryptor.swift */; };
+		325341B328467A8400719153 /* Userdata+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325341B128467A8400719153 /* Userdata+CoreDataClass.swift */; };
+		325341B428467A8400719153 /* Userdata+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325341B228467A8400719153 /* Userdata+CoreDataProperties.swift */; };
+		325341B92846808400719153 /* FinanceStrategyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325341B82846808400719153 /* FinanceStrategyService.swift */; };
+		325341BB2846830A00719153 /* BackupCopyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325341BA2846830A00719153 /* BackupCopyService.swift */; };
+		325341BD2846838200719153 /* ReportSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325341BC2846838200719153 /* ReportSerivce.swift */; };
+		325341BF284683C700719153 /* SChartSettinngs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325341BE284683C700719153 /* SChartSettinngs.swift */; };
+		325341C12846843B00719153 /* SBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325341C02846843B00719153 /* SBackup.swift */; };
+		325341C32846996000719153 /* BackupQuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325341C22846996000719153 /* BackupQuestionManager.swift */; };
+		3259F3F6284422590001B437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3259F3F5284422590001B437 /* Main.storyboard */; };
+		326B37192844E2C800667EA2 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326B37162844E2B900667EA2 /* Charts.framework */; platformFilter = ios; };
+		326B371A2844E2C800667EA2 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 326B37162844E2B900667EA2 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		326B371E2844E30800667EA2 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 326B371D2844E30800667EA2 /* Readme.md */; };
+		326B37202844E4A200667EA2 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326B371F2844E4A200667EA2 /* ResetPasswordViewController.swift */; };
+		326B37222844ED8700667EA2 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326B37212844ED8700667EA2 /* StatisticsViewController.swift */; };
+		326B372B2844F3D900667EA2 /* PFinanceStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326B372A2844F3D900667EA2 /* PFinanceStrategy.swift */; };
+		326B372D2844F6E500667EA2 /* UserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326B372C2844F6E500667EA2 /* UserDataManager.swift */; };
+		326B37302844FF0500667EA2 /* StorageStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326B372F2844FF0500667EA2 /* StorageStrategy.swift */; };
+		326B37322844FF2000667EA2 /* InvestmentStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326B37312844FF2000667EA2 /* InvestmentStrategy.swift */; };
+		326B37342844FF3100667EA2 /* TradingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326B37332844FF3100667EA2 /* TradingStrategy.swift */; };
+		326B37362844FF3A00667EA2 /* AccountingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326B37352844FF3A00667EA2 /* AccountingStrategy.swift */; };
+		3276147328465979000A09B5 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276147228465979000A09B5 /* CategoriesViewController.swift */; };
+		32761477284665F1000A09B5 /* CategoriesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32761476284665F1000A09B5 /* CategoriesManager.swift */; };
+		3276147A28466715000A09B5 /* TopCategories+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276147828466715000A09B5 /* TopCategories+CoreDataClass.swift */; };
+		3276147B28466715000A09B5 /* TopCategories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276147928466715000A09B5 /* TopCategories+CoreDataProperties.swift */; };
+		329ED3B9284C3BC10042E5C3 /* Settings+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329ED3B7284C3BC10042E5C3 /* Settings+CoreDataClass.swift */; };
+		329ED3BA284C3BC10042E5C3 /* Settings+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329ED3B8284C3BC10042E5C3 /* Settings+CoreDataProperties.swift */; };
+		329ED3BF284C3C120042E5C3 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329ED3BE284C3C120042E5C3 /* SettingsManager.swift */; };
+		32A1983B284759F600636668 /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A1983A284759F600636668 /* AddExpenseViewController.swift */; };
+		32A1983D28475E4B00636668 /* SInputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A1983C28475E4B00636668 /* SInputError.swift */; };
+		32A1983F28478E5D00636668 /* CarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A1983E28478E5D00636668 /* CarManager.swift */; };
+		32A2B48E284BB0A0009AEFAB /* PPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A2B48D284BB0A0009AEFAB /* PPublisher.swift */; };
+		32A2B492284BB0B9009AEFAB /* PSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A2B491284BB0B9009AEFAB /* PSubscriber.swift */; };
+		32A2B494284BCD32009AEFAB /* AddDebtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A2B493284BCD32009AEFAB /* AddDebtViewController.swift */; };
+		32A2B496284BD2AA009AEFAB /* DebtsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A2B495284BD2AA009AEFAB /* DebtsManager.swift */; };
+		32B022B1284517580088286A /* ChartOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B022B0284517580088286A /* ChartOptionsViewController.swift */; };
+		32C6C013284464FE00F6F949 /* SuccessfullyRegisteredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C6C012284464FE00F6F949 /* SuccessfullyRegisteredViewController.swift */; };
+		32CE50172843FFC8007B67C6 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CE50162843FFC8007B67C6 /* CoreDataManager.swift */; };
+		32E70DD12844260D00021B3C /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E70DD02844260D00021B3C /* CarViewController.swift */; };
+		32E70DD328442E4900021B3C /* StrategyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E70DD228442E4900021B3C /* StrategyViewController.swift */; };
+		32F063CF284410DA0059CA3D /* Expense+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F063CD284410DA0059CA3D /* Expense+CoreDataClass.swift */; };
+		32F063D0284410DA0059CA3D /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F063CE284410DA0059CA3D /* Expense+CoreDataProperties.swift */; };
+		32F063D6284413E00059CA3D /* Car+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F063D4284413E00059CA3D /* Car+CoreDataClass.swift */; };
+		32F063D7284413E00059CA3D /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F063D5284413E00059CA3D /* Car+CoreDataProperties.swift */; };
+		32F063DA284414060059CA3D /* BackupData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F063D8284414060059CA3D /* BackupData+CoreDataClass.swift */; };
+		32F063DB284414060059CA3D /* BackupData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F063D9284414060059CA3D /* BackupData+CoreDataProperties.swift */; };
+		32F063DE284417DC0059CA3D /* Microlan+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F063DC284417DC0059CA3D /* Microlan+CoreDataClass.swift */; };
+		32F063DF284417DC0059CA3D /* Microlan+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F063DD284417DC0059CA3D /* Microlan+CoreDataProperties.swift */; };
+		32F063E2284417FB0059CA3D /* Leasing+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F063E0284417FB0059CA3D /* Leasing+CoreDataClass.swift */; };
+		32F063E3284417FB0059CA3D /* Leasing+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F063E1284417FB0059CA3D /* Leasing+CoreDataProperties.swift */; };
+		32F063E6284418120059CA3D /* Credit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F063E4284418120059CA3D /* Credit+CoreDataClass.swift */; };
+		32F063E7284418120059CA3D /* Credit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F063E5284418120059CA3D /* Credit+CoreDataProperties.swift */; };
+		42EDA6B887B1B53FDCCB20BC /* Pods_FinanceManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C93B7A031C6184CF12B0154 /* Pods_FinanceManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		326B37152844E2B900667EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 326B37102844E2B900667EA2 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		326B37172844E2B900667EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 326B37102844E2B900667EA2 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		326B371B2844E2C800667EA2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				326B371A2844E2C800667EA2 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1743CE70AB1578F69FEC834D /* Pods-FinanceManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinanceManager.debug.xcconfig"; path = "Target Support Files/Pods-FinanceManager/Pods-FinanceManager.debug.xcconfig"; sourceTree = "<group>"; };
+		320C9F51284C0DD8008C6521 /* SCategoryStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCategoryStatistics.swift; sourceTree = "<group>"; };
+		320FE90F2844083700A0BA72 /* FinanceManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinanceManager.xcdatamodel; sourceTree = "<group>"; };
+		3217D1502844DCEA0080812E /* ResetValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetValidationViewController.swift; sourceTree = "<group>"; };
+		3217D1522844DD550080812E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		321D4AFB283B62630085B289 /* FinanceManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		321D4AFE283B62630085B289 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		321D4B00283B62630085B289 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		321D4B02283B62630085B289 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		321D4B0A283B62660085B289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		321D4B0D283B62660085B289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		321D4B0F283B62660085B289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321E01BB284439DD006918F1 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		32453E0E2844469B00CEDCCA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		32453E10284458CA00CEDCCA /* DebtsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtsViewController.swift; sourceTree = "<group>"; };
+		325341A628466A7200719153 /* ExpenseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseManager.swift; sourceTree = "<group>"; };
+		325341A82846767B00719153 /* BackupCodesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupCodesManager.swift; sourceTree = "<group>"; };
+		325341AB284676DC00719153 /* BackupCode+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BackupCode+CoreDataClass.swift"; sourceTree = "<group>"; };
+		325341AC284676DC00719153 /* BackupCode+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BackupCode+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		325341AF2846776D00719153 /* Encryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryptor.swift; sourceTree = "<group>"; };
+		325341B128467A8400719153 /* Userdata+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Userdata+CoreDataClass.swift"; sourceTree = "<group>"; };
+		325341B228467A8400719153 /* Userdata+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Userdata+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		325341B82846808400719153 /* FinanceStrategyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceStrategyService.swift; sourceTree = "<group>"; };
+		325341BA2846830A00719153 /* BackupCopyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupCopyService.swift; sourceTree = "<group>"; };
+		325341BC2846838200719153 /* ReportSerivce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportSerivce.swift; sourceTree = "<group>"; };
+		325341BE284683C700719153 /* SChartSettinngs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SChartSettinngs.swift; sourceTree = "<group>"; };
+		325341C02846843B00719153 /* SBackup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBackup.swift; sourceTree = "<group>"; };
+		325341C22846996000719153 /* BackupQuestionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupQuestionManager.swift; sourceTree = "<group>"; };
+		3259F3F5284422590001B437 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		326B37102844E2B900667EA2 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../../Charts/Charts.xcodeproj; sourceTree = "<group>"; };
+		326B371D2844E30800667EA2 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		326B371F2844E4A200667EA2 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		326B37212844ED8700667EA2 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		326B372A2844F3D900667EA2 /* PFinanceStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFinanceStrategy.swift; sourceTree = "<group>"; };
+		326B372C2844F6E500667EA2 /* UserDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
+		326B372F2844FF0500667EA2 /* StorageStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageStrategy.swift; sourceTree = "<group>"; };
+		326B37312844FF2000667EA2 /* InvestmentStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentStrategy.swift; sourceTree = "<group>"; };
+		326B37332844FF3100667EA2 /* TradingStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingStrategy.swift; sourceTree = "<group>"; };
+		326B37352844FF3A00667EA2 /* AccountingStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountingStrategy.swift; sourceTree = "<group>"; };
+		3276147228465979000A09B5 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		32761476284665F1000A09B5 /* CategoriesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesManager.swift; sourceTree = "<group>"; };
+		3276147828466715000A09B5 /* TopCategories+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TopCategories+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3276147928466715000A09B5 /* TopCategories+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TopCategories+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		329ED3B7284C3BC10042E5C3 /* Settings+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings+CoreDataClass.swift"; sourceTree = "<group>"; };
+		329ED3B8284C3BC10042E5C3 /* Settings+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		329ED3BE284C3C120042E5C3 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		32A1983A284759F600636668 /* AddExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+		32A1983C28475E4B00636668 /* SInputError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SInputError.swift; sourceTree = "<group>"; };
+		32A1983E28478E5D00636668 /* CarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarManager.swift; sourceTree = "<group>"; };
+		32A2B48D284BB0A0009AEFAB /* PPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPublisher.swift; sourceTree = "<group>"; };
+		32A2B491284BB0B9009AEFAB /* PSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSubscriber.swift; sourceTree = "<group>"; };
+		32A2B493284BCD32009AEFAB /* AddDebtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDebtViewController.swift; sourceTree = "<group>"; };
+		32A2B495284BD2AA009AEFAB /* DebtsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtsManager.swift; sourceTree = "<group>"; };
+		32B022B0284517580088286A /* ChartOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartOptionsViewController.swift; sourceTree = "<group>"; };
+		32C6C012284464FE00F6F949 /* SuccessfullyRegisteredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessfullyRegisteredViewController.swift; sourceTree = "<group>"; };
+		32CE50162843FFC8007B67C6 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		32E70DD02844260D00021B3C /* CarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewController.swift; sourceTree = "<group>"; };
+		32E70DD228442E4900021B3C /* StrategyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyViewController.swift; sourceTree = "<group>"; };
+		32F063CD284410DA0059CA3D /* Expense+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataClass.swift"; sourceTree = "<group>"; };
+		32F063CE284410DA0059CA3D /* Expense+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		32F063D4284413E00059CA3D /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataClass.swift"; sourceTree = "<group>"; };
+		32F063D5284413E00059CA3D /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		32F063D8284414060059CA3D /* BackupData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BackupData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		32F063D9284414060059CA3D /* BackupData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BackupData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		32F063DC284417DC0059CA3D /* Microlan+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Microlan+CoreDataClass.swift"; sourceTree = "<group>"; };
+		32F063DD284417DC0059CA3D /* Microlan+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Microlan+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		32F063E0284417FB0059CA3D /* Leasing+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Leasing+CoreDataClass.swift"; sourceTree = "<group>"; };
+		32F063E1284417FB0059CA3D /* Leasing+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Leasing+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		32F063E4284418120059CA3D /* Credit+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Credit+CoreDataClass.swift"; sourceTree = "<group>"; };
+		32F063E5284418120059CA3D /* Credit+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Credit+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8C93B7A031C6184CF12B0154 /* Pods_FinanceManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinanceManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A1FE895A1797D67E5AEC93 /* Pods-FinanceManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinanceManager.release.xcconfig"; path = "Target Support Files/Pods-FinanceManager/Pods-FinanceManager.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		321D4AF8283B62630085B289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326B37192844E2C800667EA2 /* Charts.framework in Frameworks */,
+				42EDA6B887B1B53FDCCB20BC /* Pods_FinanceManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		321D4AF2283B62620085B289 = {
+			isa = PBXGroup;
+			children = (
+				321D4AFD283B62630085B289 /* FinanceManager */,
+				321D4AFC283B62630085B289 /* Products */,
+				326B370F2844E2B900667EA2 /* Frameworks */,
+				7DEDE2E516F026488F668DC5 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		321D4AFC283B62630085B289 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				321D4AFB283B62630085B289 /* FinanceManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		321D4AFD283B62630085B289 /* FinanceManager */ = {
+			isa = PBXGroup;
+			children = (
+				321D4B15283B67940085B289 /* ViewControllers */,
+				32F063D3284413BC0059CA3D /* Domain */,
+				32F063D1284413780059CA3D /* Data */,
+				321D4AFE283B62630085B289 /* AppDelegate.swift */,
+				321D4B00283B62630085B289 /* SceneDelegate.swift */,
+				321D4B0A283B62660085B289 /* Assets.xcassets */,
+				3259F3F5284422590001B437 /* Main.storyboard */,
+				321D4B0C283B62660085B289 /* LaunchScreen.storyboard */,
+				321D4B0F283B62660085B289 /* Info.plist */,
+				320FE90E2844083700A0BA72 /* FinanceManager.xcdatamodeld */,
+				326B371D2844E30800667EA2 /* Readme.md */,
+			);
+			path = FinanceManager;
+			sourceTree = "<group>";
+		};
+		321D4B15283B67940085B289 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				321D4B02283B62630085B289 /* SignUpViewController.swift */,
+				32E70DD02844260D00021B3C /* CarViewController.swift */,
+				32E70DD228442E4900021B3C /* StrategyViewController.swift */,
+				321E01BB284439DD006918F1 /* AccountViewController.swift */,
+				32453E0E2844469B00CEDCCA /* SettingsViewController.swift */,
+				32453E10284458CA00CEDCCA /* DebtsViewController.swift */,
+				32C6C012284464FE00F6F949 /* SuccessfullyRegisteredViewController.swift */,
+				3217D1502844DCEA0080812E /* ResetValidationViewController.swift */,
+				3217D1522844DD550080812E /* LoginViewController.swift */,
+				326B371F2844E4A200667EA2 /* ResetPasswordViewController.swift */,
+				326B37212844ED8700667EA2 /* StatisticsViewController.swift */,
+				32B022B0284517580088286A /* ChartOptionsViewController.swift */,
+				3276147228465979000A09B5 /* CategoriesViewController.swift */,
+				32A1983A284759F600636668 /* AddExpenseViewController.swift */,
+				32A2B493284BCD32009AEFAB /* AddDebtViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		325341AA284676BF00719153 /* BackupCode */ = {
+			isa = PBXGroup;
+			children = (
+				325341AB284676DC00719153 /* BackupCode+CoreDataClass.swift */,
+				325341AC284676DC00719153 /* BackupCode+CoreDataProperties.swift */,
+			);
+			path = BackupCode;
+			sourceTree = "<group>";
+		};
+		326B370F2844E2B900667EA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				326B37102844E2B900667EA2 /* Charts.xcodeproj */,
+				8C93B7A031C6184CF12B0154 /* Pods_FinanceManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		326B37112844E2B900667EA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				326B37162844E2B900667EA2 /* Charts.framework */,
+				326B37182844E2B900667EA2 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		326B37232844F1ED00667EA2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				325341B82846808400719153 /* FinanceStrategyService.swift */,
+				325341AF2846776D00719153 /* Encryptor.swift */,
+				325341BA2846830A00719153 /* BackupCopyService.swift */,
+				325341BC2846838200719153 /* ReportSerivce.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		326B37262844F27700667EA2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				326B372A2844F3D900667EA2 /* PFinanceStrategy.swift */,
+				32A2B48D284BB0A0009AEFAB /* PPublisher.swift */,
+				32A2B491284BB0B9009AEFAB /* PSubscriber.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		326B37272844F28200667EA2 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				325341BE284683C700719153 /* SChartSettinngs.swift */,
+				325341C02846843B00719153 /* SBackup.swift */,
+				32A1983C28475E4B00636668 /* SInputError.swift */,
+				320C9F51284C0DD8008C6521 /* SCategoryStatistics.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		326B372E2844FEF900667EA2 /* Strategies */ = {
+			isa = PBXGroup;
+			children = (
+				326B372F2844FF0500667EA2 /* StorageStrategy.swift */,
+				326B37312844FF2000667EA2 /* InvestmentStrategy.swift */,
+				326B37332844FF3100667EA2 /* TradingStrategy.swift */,
+				326B37352844FF3A00667EA2 /* AccountingStrategy.swift */,
+			);
+			path = Strategies;
+			sourceTree = "<group>";
+		};
+		329ED3BD284C3BD40042E5C3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				329ED3B7284C3BC10042E5C3 /* Settings+CoreDataClass.swift */,
+				329ED3B8284C3BC10042E5C3 /* Settings+CoreDataProperties.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		32CE50152843FFBA007B67C6 /* Middleware */ = {
+			isa = PBXGroup;
+			children = (
+				32CE50162843FFC8007B67C6 /* CoreDataManager.swift */,
+				326B372C2844F6E500667EA2 /* UserDataManager.swift */,
+				32761476284665F1000A09B5 /* CategoriesManager.swift */,
+				325341A628466A7200719153 /* ExpenseManager.swift */,
+				325341A82846767B00719153 /* BackupCodesManager.swift */,
+				325341C22846996000719153 /* BackupQuestionManager.swift */,
+				32A1983E28478E5D00636668 /* CarManager.swift */,
+				32A2B495284BD2AA009AEFAB /* DebtsManager.swift */,
+				329ED3BE284C3C120042E5C3 /* SettingsManager.swift */,
+			);
+			path = Middleware;
+			sourceTree = "<group>";
+		};
+		32D4BB562846673E007DEE7E /* TopCategories */ = {
+			isa = PBXGroup;
+			children = (
+				3276147828466715000A09B5 /* TopCategories+CoreDataClass.swift */,
+				3276147928466715000A09B5 /* TopCategories+CoreDataProperties.swift */,
+			);
+			path = TopCategories;
+			sourceTree = "<group>";
+		};
+		32F063C62844101B0059CA3D /* Userdata */ = {
+			isa = PBXGroup;
+			children = (
+				325341B128467A8400719153 /* Userdata+CoreDataClass.swift */,
+				325341B228467A8400719153 /* Userdata+CoreDataProperties.swift */,
+			);
+			path = Userdata;
+			sourceTree = "<group>";
+		};
+		32F063C72844102A0059CA3D /* Credit */ = {
+			isa = PBXGroup;
+			children = (
+				32F063E4284418120059CA3D /* Credit+CoreDataClass.swift */,
+				32F063E5284418120059CA3D /* Credit+CoreDataProperties.swift */,
+			);
+			path = Credit;
+			sourceTree = "<group>";
+		};
+		32F063C8284410330059CA3D /* Leasing */ = {
+			isa = PBXGroup;
+			children = (
+				32F063E0284417FB0059CA3D /* Leasing+CoreDataClass.swift */,
+				32F063E1284417FB0059CA3D /* Leasing+CoreDataProperties.swift */,
+			);
+			path = Leasing;
+			sourceTree = "<group>";
+		};
+		32F063C9284410380059CA3D /* Microlan */ = {
+			isa = PBXGroup;
+			children = (
+				32F063DC284417DC0059CA3D /* Microlan+CoreDataClass.swift */,
+				32F063DD284417DC0059CA3D /* Microlan+CoreDataProperties.swift */,
+			);
+			path = Microlan;
+			sourceTree = "<group>";
+		};
+		32F063CA2844103E0059CA3D /* BackupData */ = {
+			isa = PBXGroup;
+			children = (
+				32F063D8284414060059CA3D /* BackupData+CoreDataClass.swift */,
+				32F063D9284414060059CA3D /* BackupData+CoreDataProperties.swift */,
+			);
+			path = BackupData;
+			sourceTree = "<group>";
+		};
+		32F063CB284410470059CA3D /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				32F063D4284413E00059CA3D /* Car+CoreDataClass.swift */,
+				32F063D5284413E00059CA3D /* Car+CoreDataProperties.swift */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+		32F063CC284410590059CA3D /* Expense */ = {
+			isa = PBXGroup;
+			children = (
+				32F063CD284410DA0059CA3D /* Expense+CoreDataClass.swift */,
+				32F063CE284410DA0059CA3D /* Expense+CoreDataProperties.swift */,
+			);
+			path = Expense;
+			sourceTree = "<group>";
+		};
+		32F063D1284413780059CA3D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				329ED3BD284C3BD40042E5C3 /* Settings */,
+				325341AA284676BF00719153 /* BackupCode */,
+				32D4BB562846673E007DEE7E /* TopCategories */,
+				32F063CC284410590059CA3D /* Expense */,
+				32F063CB284410470059CA3D /* Car */,
+				32F063CA2844103E0059CA3D /* BackupData */,
+				32F063C9284410380059CA3D /* Microlan */,
+				32F063C8284410330059CA3D /* Leasing */,
+				32F063C72844102A0059CA3D /* Credit */,
+				32F063C62844101B0059CA3D /* Userdata */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		32F063D3284413BC0059CA3D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				326B372E2844FEF900667EA2 /* Strategies */,
+				326B37272844F28200667EA2 /* Structs */,
+				326B37262844F27700667EA2 /* Protocols */,
+				326B37232844F1ED00667EA2 /* Services */,
+				32CE50152843FFBA007B67C6 /* Middleware */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		7DEDE2E516F026488F668DC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1743CE70AB1578F69FEC834D /* Pods-FinanceManager.debug.xcconfig */,
+				B8A1FE895A1797D67E5AEC93 /* Pods-FinanceManager.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		321D4AFA283B62630085B289 /* FinanceManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 321D4B12283B62660085B289 /* Build configuration list for PBXNativeTarget "FinanceManager" */;
+			buildPhases = (
+				988BADCB0EF033F79523C40C /* [CP] Check Pods Manifest.lock */,
+				321D4AF7283B62630085B289 /* Sources */,
+				321D4AF8283B62630085B289 /* Frameworks */,
+				321D4AF9283B62630085B289 /* Resources */,
+				326B371B2844E2C800667EA2 /* Embed Frameworks */,
+				9736FF31CE819A426082125F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinanceManager;
+			productName = FinanceManager;
+			productReference = 321D4AFB283B62630085B289 /* FinanceManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		321D4AF3283B62630085B289 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					321D4AFA283B62630085B289 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 321D4AF6283B62630085B289 /* Build configuration list for PBXProject "FinanceManager" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 321D4AF2283B62620085B289;
+			productRefGroup = 321D4AFC283B62630085B289 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 326B37112844E2B900667EA2 /* Products */;
+					ProjectRef = 326B37102844E2B900667EA2 /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				321D4AFA283B62630085B289 /* FinanceManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		326B37162844E2B900667EA2 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 326B37152844E2B900667EA2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		326B37182844E2B900667EA2 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 326B37172844E2B900667EA2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		321D4AF9283B62630085B289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3259F3F6284422590001B437 /* Main.storyboard in Resources */,
+				321D4B0E283B62660085B289 /* LaunchScreen.storyboard in Resources */,
+				326B371E2844E30800667EA2 /* Readme.md in Resources */,
+				321D4B0B283B62660085B289 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9736FF31CE819A426082125F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinanceManager/Pods-FinanceManager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinanceManager/Pods-FinanceManager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FinanceManager/Pods-FinanceManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		988BADCB0EF033F79523C40C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FinanceManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		321D4AF7283B62630085B289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329ED3BA284C3BC10042E5C3 /* Settings+CoreDataProperties.swift in Sources */,
+				325341B02846776D00719153 /* Encryptor.swift in Sources */,
+				3276147328465979000A09B5 /* CategoriesViewController.swift in Sources */,
+				3217D1532844DD550080812E /* LoginViewController.swift in Sources */,
+				32F063E7284418120059CA3D /* Credit+CoreDataProperties.swift in Sources */,
+				326B37222844ED8700667EA2 /* StatisticsViewController.swift in Sources */,
+				325341C12846843B00719153 /* SBackup.swift in Sources */,
+				32F063DB284414060059CA3D /* BackupData+CoreDataProperties.swift in Sources */,
+				325341AD284676DC00719153 /* BackupCode+CoreDataClass.swift in Sources */,
+				32A2B492284BB0B9009AEFAB /* PSubscriber.swift in Sources */,
+				32F063E6284418120059CA3D /* Credit+CoreDataClass.swift in Sources */,
+				32F063CF284410DA0059CA3D /* Expense+CoreDataClass.swift in Sources */,
+				326B372D2844F6E500667EA2 /* UserDataManager.swift in Sources */,
+				326B372B2844F3D900667EA2 /* PFinanceStrategy.swift in Sources */,
+				3276147A28466715000A09B5 /* TopCategories+CoreDataClass.swift in Sources */,
+				32F063DF284417DC0059CA3D /* Microlan+CoreDataProperties.swift in Sources */,
+				325341BF284683C700719153 /* SChartSettinngs.swift in Sources */,
+				32F063DE284417DC0059CA3D /* Microlan+CoreDataClass.swift in Sources */,
+				320C9F52284C0DD8008C6521 /* SCategoryStatistics.swift in Sources */,
+				32CE50172843FFC8007B67C6 /* CoreDataManager.swift in Sources */,
+				325341B328467A8400719153 /* Userdata+CoreDataClass.swift in Sources */,
+				326B37362844FF3A00667EA2 /* AccountingStrategy.swift in Sources */,
+				32F063D7284413E00059CA3D /* Car+CoreDataProperties.swift in Sources */,
+				326B37302844FF0500667EA2 /* StorageStrategy.swift in Sources */,
+				321E01BC284439DD006918F1 /* AccountViewController.swift in Sources */,
+				325341BB2846830A00719153 /* BackupCopyService.swift in Sources */,
+				325341C32846996000719153 /* BackupQuestionManager.swift in Sources */,
+				325341A728466A7200719153 /* ExpenseManager.swift in Sources */,
+				329ED3BF284C3C120042E5C3 /* SettingsManager.swift in Sources */,
+				32A2B496284BD2AA009AEFAB /* DebtsManager.swift in Sources */,
+				32A1983D28475E4B00636668 /* SInputError.swift in Sources */,
+				32E70DD328442E4900021B3C /* StrategyViewController.swift in Sources */,
+				32A2B494284BCD32009AEFAB /* AddDebtViewController.swift in Sources */,
+				325341A92846767B00719153 /* BackupCodesManager.swift in Sources */,
+				325341AE284676DC00719153 /* BackupCode+CoreDataProperties.swift in Sources */,
+				321D4B03283B62630085B289 /* SignUpViewController.swift in Sources */,
+				32453E11284458CA00CEDCCA /* DebtsViewController.swift in Sources */,
+				32F063DA284414060059CA3D /* BackupData+CoreDataClass.swift in Sources */,
+				320FE9102844083700A0BA72 /* FinanceManager.xcdatamodeld in Sources */,
+				32F063E2284417FB0059CA3D /* Leasing+CoreDataClass.swift in Sources */,
+				3217D1512844DCEA0080812E /* ResetValidationViewController.swift in Sources */,
+				32A2B48E284BB0A0009AEFAB /* PPublisher.swift in Sources */,
+				325341BD2846838200719153 /* ReportSerivce.swift in Sources */,
+				32F063D6284413E00059CA3D /* Car+CoreDataClass.swift in Sources */,
+				326B37342844FF3100667EA2 /* TradingStrategy.swift in Sources */,
+				32E70DD12844260D00021B3C /* CarViewController.swift in Sources */,
+				32A1983B284759F600636668 /* AddExpenseViewController.swift in Sources */,
+				32F063D0284410DA0059CA3D /* Expense+CoreDataProperties.swift in Sources */,
+				326B37322844FF2000667EA2 /* InvestmentStrategy.swift in Sources */,
+				325341B428467A8400719153 /* Userdata+CoreDataProperties.swift in Sources */,
+				32A1983F28478E5D00636668 /* CarManager.swift in Sources */,
+				32C6C013284464FE00F6F949 /* SuccessfullyRegisteredViewController.swift in Sources */,
+				32761477284665F1000A09B5 /* CategoriesManager.swift in Sources */,
+				32B022B1284517580088286A /* ChartOptionsViewController.swift in Sources */,
+				3276147B28466715000A09B5 /* TopCategories+CoreDataProperties.swift in Sources */,
+				325341B92846808400719153 /* FinanceStrategyService.swift in Sources */,
+				321D4AFF283B62630085B289 /* AppDelegate.swift in Sources */,
+				321D4B01283B62630085B289 /* SceneDelegate.swift in Sources */,
+				329ED3B9284C3BC10042E5C3 /* Settings+CoreDataClass.swift in Sources */,
+				32453E0F2844469B00CEDCCA /* SettingsViewController.swift in Sources */,
+				32F063E3284417FB0059CA3D /* Leasing+CoreDataProperties.swift in Sources */,
+				326B37202844E4A200667EA2 /* ResetPasswordViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		321D4B0C283B62660085B289 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				321D4B0D283B62660085B289 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		321D4B10283B62660085B289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		321D4B11283B62660085B289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		321D4B13283B62660085B289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1743CE70AB1578F69FEC834D /* Pods-FinanceManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K52ZJY2M9Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinanceManager/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Finance Manager";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dima.FinanceManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		321D4B14283B62660085B289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A1FE895A1797D67E5AEC93 /* Pods-FinanceManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K52ZJY2M9Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinanceManager/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Finance Manager";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dima.FinanceManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		321D4AF6283B62630085B289 /* Build configuration list for PBXProject "FinanceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321D4B10283B62660085B289 /* Debug */,
+				321D4B11283B62660085B289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		321D4B12283B62660085B289 /* Build configuration list for PBXNativeTarget "FinanceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321D4B13283B62660085B289 /* Debug */,
+				321D4B14283B62660085B289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		320FE90E2844083700A0BA72 /* FinanceManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				320FE90F2844083700A0BA72 /* FinanceManager.xcdatamodel */,
+			);
+			currentVersion = 320FE90F2844083700A0BA72 /* FinanceManager.xcdatamodel */;
+			path = FinanceManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 321D4AF3283B62630085B289 /* Project object */;
+}
